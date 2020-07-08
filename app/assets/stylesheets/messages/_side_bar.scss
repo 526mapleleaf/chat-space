@@ -35,13 +35,19 @@
     .group {
       padding: 20px 0 40px;
       color: white;
+      .link {
+        text-decoration: none;
+        text-decoration-color: none;
+      }
       &__name {
         font-size: $side_group_name;
         font-weight: bold;
+        color: white;
       }
       &__message {
         font-size: $side_group_message;
         font-weight: bold;
+        color: white;
         margin-top: 5px;
       }
     }

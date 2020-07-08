@@ -31,6 +31,9 @@
       height: 40px;
       width: 72px;
       margin-top: 28px;
+      .link {
+        text-decoration: none;
+      }
       &__button {
         color: $light_blue;
         font-size: 16px;
@@ -43,6 +46,7 @@
     background-color: $side_white_light;
     height: calc(100vh - 190px);
     padding: 35px 40px 0;
+    overflow: scroll;
     .message {
       .upper-message {
         display: flex;
@@ -76,6 +80,8 @@
       float: left;
       height: 50px;
       width: calc(100% - 160px);
+      color: $chat_black_dark;
+      font-size: 20px;
     }
     &__mask {
       background-color: white;
